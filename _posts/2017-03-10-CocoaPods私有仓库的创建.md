@@ -12,7 +12,7 @@ tags:
     - Git
 ---
 
-> 本文发布于 [BY Blog](http://qiubaiying.github.io)、[简书](http://www.jianshu.com/p/d2d98298b1b8) 转载请保留链接
+> 本文发布于 [BY Blog](http://micropieces.github.io)、[简书](http://www.jianshu.com/p/d2d98298b1b8) 转载请保留链接
 > 
 > 上一篇文章 [《CocoaPods公有仓库的创建》](http://qiubaiying.top/2017/03/08/CocoaPods公有仓库的创建/)
 
@@ -101,8 +101,8 @@ Pod::Spec.new do |s|
   # s.dependency   = "AFNetworking" # 依赖库
   
   # User
-  s.author             = { "BY" => "qiubaiyingios@163.com" } # 作者信息
-  s.social_media_url   = "http://qiubaiying.github.io" # 个人主页
+  s.author             = { "BY" => "897958555@qq.com" } # 作者信息
+  s.social_media_url   = "http://micropieces.github.io" # 个人主页
 
 end
 ```
