@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
-SEOTitle: 埼玉的博客 | BY Blog
+title: QY Blog
+SEOTitle: 埼玉的博客 | QY Blog
 header-img: img/post-bg-desk.jpg
 email: 897958555@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 埼玉的博客, qiyu, 傅枫, 埼玉, fufeng, java"
+keyword: "QY, QY Blog, 埼玉的博客, qiyu, 傅枫, 埼玉, fufeng, java"
 url: "http://micropieces.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/MicroPieces/micropieces.github.io.git" # you code repository
