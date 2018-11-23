@@ -1,7 +1,7 @@
 # Site settings
 title: QY Blog
 SEOTitle: 埼玉的博客 | QY Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-hacker.jpg
 email: 897958555@qq.com
 description: "Every failure is leading towards success."
 keyword: "QY, QY Blog, 埼玉的博客, qiyu, 傅枫, 埼玉, fufeng, java"
@@ -86,7 +86,7 @@ ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
 
 # Featured Tags
 featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
 
