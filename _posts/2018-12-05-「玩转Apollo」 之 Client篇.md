@@ -42,7 +42,7 @@ Java客户端不依赖任何框架，能够运行于所有Java运行时环境，
 ### 2.添加配置文件
 
 ##### 2.1 在项目此路径下创建app.properties文件，classpath:/META-INF/app.properties文件。
-[![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/e.3PIPmHtaL6BFVJorAw5seiqhM9yt2lb91VAhu4DT0!/b/dD4BAAAAAAAA&bo=TAJsAQAAAAADBwE!&rf=viewer_4)]
+![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/e.3PIPmHtaL6BFVJorAw5seiqhM9yt2lb91VAhu4DT0!/b/dD4BAAAAAAAA&bo=TAJsAQAAAAADBwE!&rf=viewer_4)
 
 并且其中内容app.id为必填：
 ```
@@ -59,7 +59,7 @@ apollo.meta=http://192.168.0.30:30080
 
 ##### 2.2 application.properties ( 非必须)
 
-[![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/Y*XKDIT7lkFBxUPRtnfaEKERTvNgkhbNIjAPEl1VENI!/b/dFUAAAAAAAAA&bo=QwKSAAAAAAADB*E!&rf=viewer_4)]
+![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/Y*XKDIT7lkFBxUPRtnfaEKERTvNgkhbNIjAPEl1VENI!/b/dFUAAAAAAAAA&bo=QwKSAAAAAAADB*E!&rf=viewer_4)
 
 -因为考虑到spring.application.name和server.port这类属性配置，在同一机器上部署时，AppId相同，但是配置会不同，所以这类配置，仍然放到配置文件中在打包时指定。 
 -需要注意的是若工程中application.properties存在，且其中有配置属性，apollo客户端会默认从配置中心取值，若出现key在配置中心和中application.properties都存在的情况，apollo客户端是不会读取application.properties中的配置。
@@ -74,7 +74,7 @@ apollo.meta=http://192.168.0.30:30080
 
 在SpringBoot的入口类(SpringApplication)上添加注解 @EnableApolloConfig
 
-[![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/37ZJYL0imrUeWrRjINh.WqdX69NHwEhMPqQLIXdZ5.4!/b/dLYAAAAAAAAA&bo=ygPcAAAAAAADBzc!&rf=viewer_4)]
+![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/37ZJYL0imrUeWrRjINh.WqdX69NHwEhMPqQLIXdZ5.4!/b/dLYAAAAAAAAA&bo=ygPcAAAAAAADBzc!&rf=viewer_4)
 
 ### 4. 添加配置信息监听器
 
@@ -118,12 +118,12 @@ public class SpringBootApolloRefreshConfig {
 ##### 5.1 登录apollo服务 LoginURL：http://192.168.0.30:8070
  
  默认帐号： apollo / admin
- [![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/lcgYu26hnkNJ*JgY6sgCZtS6lgdhQLYu8UktTKfNyCY!/b/dLYAAAAAAAAA&bo=WQP.AQAAAAADB4c!&rf=viewer_4)]
+ ![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/lcgYu26hnkNJ*JgY6sgCZtS6lgdhQLYu8UktTKfNyCY!/b/dLYAAAAAAAAA&bo=WQP.AQAAAAADB4c!&rf=viewer_4)
 
 ##### 5.2 创建项目
 
 点击创建项目，应用ID与你app.properties里的app.id必须一致
- [![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/Gj3Y6YWDxjtcbuRdsYTIXdSBsUlpgxbqQLzwObaQlKU!/b/dFMBAAAAAAAA&bo=UgYqAgAAAAADB14!&rf=viewer_4)]
+ ![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/Gj3Y6YWDxjtcbuRdsYTIXdSBsUlpgxbqQLzwObaQlKU!/b/dFMBAAAAAAAA&bo=UgYqAgAAAAADB14!&rf=viewer_4)
 
 
 最后进入你创建的项目，添加配置再发布，然后你基于apollo管理的配置客户端就可以run起来了。
@@ -131,10 +131,10 @@ public class SpringBootApolloRefreshConfig {
 ### 6. 调试
 
 在apollo配置管理平台修改发布配置信息
- [![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/WksfXqvD0Vymqmzga24HDkn9OnUHcfoIJ*lvcZPISWc!/b/dLYAAAAAAAAA&bo=zQPzAQAAAAADBx4!&rf=viewer_4)]
+ ![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/WksfXqvD0Vymqmzga24HDkn9OnUHcfoIJ*lvcZPISWc!/b/dLYAAAAAAAAA&bo=zQPzAQAAAAADBx4!&rf=viewer_4)
  
 在客户端的监听器会输出change的信息
- [![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/rGGfLFO2.Lqc*KNOHVm0MlaaZjJktoo6mZnHWsDk.jU!/b/dDUBAAAAAAAA&bo=VgapAgAAAAADB9k!&rf=viewer_4)]
+ ![](http://m.qpic.cn/psb?/V11oTtVQ2pcC6W/rGGfLFO2.Lqc*KNOHVm0MlaaZjJktoo6mZnHWsDk.jU!/b/dDUBAAAAAAAA&bo=VgapAgAAAAADB9k!&rf=viewer_4)
 
 
 
